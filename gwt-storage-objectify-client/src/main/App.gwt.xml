@@ -10,7 +10,7 @@
   <inherits name="com.seanchenxi.gwt.storage.Storage" />
   <set-configuration-property name="storage.type.finder" value="xml" />
 
-  <inherits name="org.hibernate.validator.HibernateValidator" />
+  <inherits name="de.knightsoftnet.validators.GwtBeanValidators" />
   <replace-with class="com.project.client.SimpleValidatorFactory">
     <when-type-is class="javax.validation.ValidatorFactory" />
   </replace-with>
